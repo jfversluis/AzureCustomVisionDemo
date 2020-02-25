@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCustomVisionDemo.iOS", "AzureCustomVisionDemo.iOS.csproj", "{B96C6F4B-B68C-4CDE-A4BE-C500EB39F660}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B96C6F4B-B68C-4CDE-A4BE-C500EB39F660}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B96C6F4B-B68C-4CDE-A4BE-C500EB39F660}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B96C6F4B-B68C-4CDE-A4BE-C500EB39F660}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B96C6F4B-B68C-4CDE-A4BE-C500EB39F660}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{B96C6F4B-B68C-4CDE-A4BE-C500EB39F660}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B96C6F4B-B68C-4CDE-A4BE-C500EB39F660}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B96C6F4B-B68C-4CDE-A4BE-C500EB39F660}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B96C6F4B-B68C-4CDE-A4BE-C500EB39F660}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal

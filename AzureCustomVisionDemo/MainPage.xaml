@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" mc:Ignorable="d" x:Class="AzureCustomVisionDemo.MainPage">
+    <yummy:PancakeView BackgroundGradientStartColor="Yellow" BackgroundGradientEndColor="Green" BackgroundGradientAngle="45">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Label x:Name="DescriptionLabel" FontAttributes="Bold" Text="I spy with my little eye..." FontSize="Large" HorizontalTextAlignment="Center" TextColor="Green" IsVisible="False" />
+            <Label x:Name="TagLabel" FontAttributes="Bold" Text="Select an image" FontSize="26" HorizontalTextAlignment="Center" TextColor="Green" />
+
+            <yummy:PancakeView BorderColor="Yellow" BorderThickness="2">
+                <Image HeightRequest="300" WidthRequest="300" x:Name="CapturedImage" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+            </yummy:PancakeView>
+            <Button BackgroundColor="Yellow" TextColor="Green" Clicked="Button_Local_Clicked" Text="Choose picture (local)"  />
+            <Button BackgroundColor="Yellow" TextColor="Green" Clicked="Button_Azure_Clicked" Text="Choose picture (Azure)" />
+        </StackLayout>
+    </yummy:PancakeView>
+</ContentPage>
