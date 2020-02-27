@@ -5,7 +5,7 @@ Sample Xamarin.Forms app used on an episode of the AI Show.
 With this app you can classify Simpsons LEGO figures with the help of CoreML, TensorFlow and/or Azure Custom Vision.
 
 ### AI Episodes
-- [AI Show](xxx)
+- [AI Show](https://www.youtube.com/watch?v=pRDL5BtV_Fg)
 - [AI and mobile apps - AI Tales, applied AI from the field](https://globalai.community/ai-tales/episode-1)
 
 ### Resources:
